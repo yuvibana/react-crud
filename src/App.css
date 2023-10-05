@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: 0;
+  border: 0;
+}
+
+input {
+  all: unset;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.positionfix {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #282c34;
+}
+
+.dflex {
+  display: flex;
+}
+
+.contetnbetween {
+  justify-content: space-between;
+}
+
+.itmescenter {
+  align-items: center;
+}
+
+.textcapitalize {
+  text-transform: capitalize;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.font35 {
+  font-size: 35px;
+}
+
+.linktext {
+  color: #61dafb;
+}
+
+.textwhite {
+  color: #fff;
+}
+
+.textblack {
+  background: #282c34;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 5px 15px;
+}
+
+.btnblue {
+  background-color: #61dafb;
+}
+
+.btndanger {
+  background: rgb(158, 46, 46);
+}
+
+.nodata {
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.formdiv input,
+.formdiv button {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  background: #fff;
+  color: #282c34;
+}
+
+.formdiv button{
+  width: 48%;
+}
+.formdiv input{
+  width: 97%;
+}
+
+.formdiv form {
+  width: 40vw;
+  margin: 0 auto;
+}
