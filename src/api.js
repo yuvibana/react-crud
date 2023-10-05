@@ -1,2 +1,2 @@
-const baseURL = 'https://649be3810480757192371401.mockapi.io/rjdev/crud-rj';
+const baseURL = 'your api ';
 export default baseURL;
