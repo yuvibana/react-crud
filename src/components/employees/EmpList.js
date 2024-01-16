@@ -47,8 +47,7 @@ export default function EmpList() {
     };
 
     return (
-        <>
-            <h1 style={{ cursor: 'pointer' }} onClick={hndlClick}>Add New  Emp</h1>
+        <>            
             {isLoadingdIn ? (
                 <NoData heading="No Employee Found" />
             ) : (
@@ -85,6 +84,7 @@ export default function EmpList() {
                     </tbody>
                 </table>
             )}
+            <h1 className='btnblue' style={{ cursor: 'pointer', width:'fit-content', margin:'10px 0 0 auto', padding:'5px 10px' }} onClick={hndlClick}>Add New  Emp</h1>
         </>
     )
 }
